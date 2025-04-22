@@ -59,7 +59,7 @@ fun NavGraph(modifier: Modifier = Modifier) {
                     navController.navigateToMemeDetail(it.toJson())
                 }
                 favoriteScreen()
-                profileScreen {}
+                profileScreen()
                 memeDetailScreen()
             }
         }
